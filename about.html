@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    /* CSS for the page */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #202124; /* Dark background */
+      color: #ffffff; /* White text color */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+    }
+    header {
+      background-color: #282a2d; /* Darker header background */
+      padding: 20px;
+      text-align: center;
+      position: relative; /* Add position relative */
+      z-index: 1; /* Add z-index to bring the header forward */
+    }
+    header h1 {
+      margin: 0;
+      color: #ffffff; /* White text color */
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      margin-top: 20px; /* Add margin at the top of the navigation */
+      position: relative; /* Add position relative */
+      z-index: 1; /* Add z-index to ensure navigation is above main content */
+    }
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #ffffff; /* White color for navigation links */
+      text-decoration: none;
+      padding: 10px 15px; /* Adjust padding */
+      transition: background-color 0.3s ease;
+      border-radius: 5px; /* Rounded corners */
+    }
+    nav ul li a:hover {
+      background-color: #404244; /* Slightly lighter on hover */
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 80px; /* Add margin to create space for the footer */
+      position: relative; /* Add position relative */
+      z-index: 0; /* Add z-index to keep it behind the header */
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      color: #ffffff; /* White heading color */
+    }
+    section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .image-container {
+      text-align: center; /* Center the image horizontally */
+    }
+    .image-container img {
+      max-width: 100%; /* Ensure the image does not exceed its container */
+      max-height: 180px; /* Set maximum height of the image */
+      height:auto  /* maintain aspect ratio */
+      border-radius; 10px; /* Rounded corners */
+      margin-top: 20px; /* Add margin at the top of the image */
+      /* Position the image */
+      position: relative; /* Change position to relative */
+    }
+    footer {
+      background-color: #282a2d; /* Darker footer background */
+      color: #ffffff; /* White color for footer text */
+      padding: 20px;
+      text-align: center;
+      width: 100%; /* Remove fixed width */
+      clear: both; /* Clear floats */
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>About Us</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Our Mission</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Our Mission</h2>
+    <p>We believe that London, as big as it is, can be cleaned of its litter and rubbish if everyone takes on step towards recycling and sunstainability. And thats why we're here.</p>
+    <p>With our helpful tips and guides, along with many others with our same mission, London can become a cleaner and safer place for all.</p>
+    <p>So Get Involed! Share with family and friends, and work together to better not only your carbon footprint but Londons impact on the climate as a whole!</p>
+    <h3>Together We can Make a Difference.</h3>
+    <div class="image-container">
+        <img src="photos/recycle logo.png" alt="Recycle logo">
+      </div>
+</section>
+</main>
+
+<footer>
+    <p>2024 Recycling Tips for London. Copyright © 2021 School of Computing and Mathematical Sciences - University of Greenwich -
+      ss3347g@gre.ac.uk</p>
+  </footer>
+
+</body>
+</html>
+
+

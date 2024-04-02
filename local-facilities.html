@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Recycling Facilities</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #202124; /* Dark background */
+      color: #ffffff; /* White text color */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+    }
+    header {
+      background-color: #282a2d; /* Darker header background */
+      padding: 20px;
+      text-align: center;
+      position: relative; /* Add position relative */
+      z-index: 1; /* Add z-index to bring the header forward */
+    }
+    header h1 {
+      margin: 0;
+      color: #ffffff; /* White text color */
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      margin-top: 20px; /* Add margin at the top of the navigation */
+      position: relative; /* Add position relative */
+      z-index: 1; /* Add z-index to ensure navigation is above main content */
+    }
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #ffffff; /* White color for navigation links */
+      text-decoration: none;
+      padding: 10px 15px; /* Adjust padding */
+      transition: background-color 0.3s ease;
+      border-radius: 5px; /* Rounded corners */
+    }
+    nav ul li a:hover {
+      background-color: #404244; /* Slightly lighter on hover */
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 80px; /* Add margin to create space for the footer */
+      position: relative; /* Add position relative */
+      z-index: 0; /* Add z-index to keep it behind the header */
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      color: #007bff; /* Blue heading color */
+    }
+    section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .map-container {
+      text-align: center; /* Center the map horizontally */
+      margin-top: 20px; /* Add margin at the top of the map */
+    }
+    .map-container iframe {
+      width: 80%; /* Set width of the map */
+      height: 500px; /* Set height of the map */
+      border: none; /* Remove border */
+    }
+    footer {
+      background-color: #282a2d; /* Darker footer background */
+      color: #ffffff; /* White color for footer text */
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Local Recycling Facilities</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Our Mission</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Find Local Recycling Facilities</h2>
+    <div class="map-container">
+      <iframe src="//batchgeo.com/map/7547940cd36b6977a9176f89c07ed363" frameborder="0"></iframe>
+    </div>
+  </section>
+</main>
+<p><iframe loading="lazy" style="border: 1px solid #aaa;" src="//batchgeo.com/map/7547940cd36b6977a9176f89c07ed363" width="100%" height="550" frameborder="0" sandbox="allow-top-navigation allow-scripts allow-popups allow-same-origin allow-modals allow-forms"></iframe></p>
+<p><span style="font-size: 10pt;"><em>source: LoveJunk 2023 using data published by Environment Agency</em></span></p>
+
+<footer>
+  <p>2024 Recycling Tips for London. Copyright © 2021 School of Computing and Mathematical Sciences - University of Greenwich - ss3347g@gre.ac.uk</p>
+</footer>
+
+</body>
+</html>
